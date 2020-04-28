@@ -1,0 +1,50 @@
+<%- include("partials/header2") %>
+
+    <h1 class="ml5">
+        <span class="text-wrapper">
+      <span class="line line1"></span>
+        <span class="letters letters-left"><i>Hello</i></span>
+        <span class="letters ampersand">&#187;</span>
+        <span class="letters letters-right">User</span>
+        <span class="line line2"></span>
+        </span>
+    </h1>
+    <h1 style="text-align: center; color:darkorange">Scroll Down to see patient Data.</h1>
+    <div class="tab">
+        <table class="ui compact celled definition table">
+            <thead class="full-width">
+                <tr>
+                    <th>Name</th>
+                    <th>Registration Date</th>
+                    <th>E-mail address</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Lilki</td>
+                    <td>September 14, 2013</td>
+                    <td>jhlilk22@yahoo.com</td>
+                    <td>
+                        <div class="ui radio checkbox">
+                            <input style="padding: 0;" type="checkbox"><label>Approved</label>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot class="full-width">
+                <tr>
+                    <th></th>
+                    <th colspan="4">
+                        <div class="ui right floated small blue labeled icon button">
+                            <i class="code icon"></i> Generate Qr Code
+                        </div>
+                        <div class="qr">hello</div>
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    </header>
+
+    <%- include("partials/footer2") %>

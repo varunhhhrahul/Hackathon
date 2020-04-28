@@ -1,0 +1,50 @@
+<%- include("partials/header") %>
+    <!-- FORM -->
+    <div class="form1" style="display: inline; width: 50%;">
+        <div class="ui raised segment dimmable">
+            <div class="ui inverted dimmer">
+                <div class="content">
+                    <div class="ui text loader">Loading</div>
+                </div>
+            </div>
+            <h2 class="ui header"><i aria-hidden="true" style="color: red;" class="plus icon"></i>Add Hospital</h2>
+            <p style="color: black;"> Add Hospital to </p>
+            <div class="ui divider"></div>
+            <form class="ui form">
+                <div class="field">
+                    <div class="field"><label>Name</label>
+                        <div class="ui left icon input"><input aria-invalid="true" style="padding: 0;" placeholder="Enter Name of Hospital" name="name" type="text" value=""><i aria-hidden="true" class="user icon"></i></div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="field"><label>Email Address</label>
+                        <div class="ui left icon input"><input aria-invalid="true" style="padding: 0;" placeholder="Enter Hospital's associated Email" name="email" type="email" value=""><i aria-hidden="true" class="mail icon"></i></div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="field"><label>Registration Number</label>
+                        <div class="ui left icon input"><input aria-invalid="true" style="padding: 0;" placeholder="Enter Hospital's Registration Number" name="registrationNumber" type="number" value=""><i aria-hidden="true" class="plus icon"></i></div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="field"><label>Website Name</label>
+                        <div class="ui left icon input"><input aria-invalid="true" style="padding: 0;" placeholder="Enter Hospital's associated website" name="website" type="text" value=""><i aria-hidden="true" class="circle icon"></i></div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="field"><label>Phone Number</label>
+                        <div class="ui left icon input"><input aria-invalid="true" style="padding: 0;" placeholder="Enter Hospital's Phone Number" name="phoneNumber" type="text" value=""><i aria-hidden="true" class="phone icon"></i></div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="field"><label>Description</label>
+                        <textarea name="description" placeholder="Enter Hopsital Description..."></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="ui red button"><div class="content">Add Hospital</div></button></form>
+        </div>
+    </div>
+
+    </header>
+
+    <%- include("partials/footer") %>

@@ -1,0 +1,55 @@
+<%- include("partials/header2") %>
+
+    <h1 class="ml5">
+        <span class="text-wrapper">
+      <span class="line line1"></span>
+        <span class="letters letters-left"><i>Hospital</i></span>
+        <!-- <span class="letters ampersand">&#187;</span> -->
+        <span class="letters letters-right">Name</span>
+        <span class="line line2"></span>
+        </span>
+    </h1>
+    <div class="tab">
+        <table class="ui compact celled definition table">
+            <thead class="full-width">
+                <tr>
+                    <th>Patient Name</th>
+                    <th>Status of Request</th>
+                    <th>Edit or Delete Request</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Lilki</td>
+                    <td class="positive">Approved</td>
+                    <td><a href="/add-patient-data"><i class="pencil icon"></a></i> <i style="color: red;" class="delete icon"></i></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>John Lilki</td>
+                    <td class="warning">Pending</td>
+                    <td><a href="/add-patient-data"><i class="pencil icon"></a></i> <i style="color: red;" class="delete icon"></i></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>John Lilki</td>
+                    <td class="negative">Declined</td>
+                    <td><a href="/add-patient-data"><i class="pencil icon"></a></i> <i style="color: red;" class="delete icon"></i></td>
+                    </td>
+                </tr>
+            </tbody>
+
+
+
+            <a class="ui  floated small red labeled icon button">
+                <i class="plus icon"></i> Add Patient
+            </a>
+
+
+
+        </table>
+    </div>
+
+    </header>
+
+    <%- include("partials/footer2") %>

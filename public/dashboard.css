@@ -1,3 +1,21 @@
+.ui.large.button {
+    margin: 0 auto;
+    /* padding: 25px 80px; */
+    box-shadow: 0px 6px #f1a20e;
+    ;
+}
+
+.ui.large.button:hover {
+    box-shadow: 0px 3px #f1a20e;
+    top: 50%;
+}
+
+.ui.large.button:active {
+    box-shadow: 0px 0px #f1a20e;
+    ;
+    top: 51%;
+}
+
 .ml5 {
     text-align: center;
     position: relative;
@@ -43,6 +61,10 @@
 
 .ml5 .letters-right {
     color: red;
+}
+
+.ml5 .letters-left {
+    color: brown;
 }
 
 .wrapper {

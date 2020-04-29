@@ -58,12 +58,16 @@ app.get("/admin-dashboard",function(req,res){
     res.render("admin-dashboard");
 })
 
-app.get("/forget",function(req,res){
-    res.render("forget");
+app.get("/forget-password",function(req,res){
+    res.render("forget-password");
 })
 app.get("/user-request-data",function(req,res){
     res.render("user-request-data");
-})
+});
+app.get("/verify-address",function(req,res){
+    res.render("verify-address");
+});
+
 
 app.listen(3000,function(){
     console.log("App server started!!!");

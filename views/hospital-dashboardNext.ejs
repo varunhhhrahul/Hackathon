@@ -10,44 +10,68 @@
         </span>
     </h1>
     <div class="tab">
-        <table class="ui compact celled definition table">
-            <thead class="full-width">
-                <tr>
-                    <th>Patient Name</th>
-                    <th>Status of Request</th>
-                    <th>Edit or Delete Request</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>John Lilki</td>
-                    <td class="positive">Approved</td>
-                    <td><a href="/add-patient-data"><i class="pencil icon"></a></i> <i style="color: red;" class="delete icon"></i></td>
-                    </td>
-                </tr>
-                <tr>
-                    <td>John Lilki</td>
-                    <td class="warning">Pending</td>
-                    <td><a href="/add-patient-data"><i class="pencil icon"></a></i> <i style="color: red;" class="delete icon"></i></td>
-                    </td>
-                </tr>
-                <tr>
-                    <td>John Lilki</td>
-                    <td class="negative">Declined</td>
-                    <td><a href="/add-patient-data"><i class="pencil icon"></a></i> <i style="color: red;" class="delete icon"></i></td>
-                    </td>
-                </tr>
-            </tbody>
 
+        <div style="background: white; border: 1px solid black; border-radius: 15px;" class="ui middle aligned divided list">
+            <div style="padding: 10px;" class="item">
+                <div style="color:yellowgreen" class="right floated content">
+                    Edit or Delete Request
+                </div>
+                <!-- <div class="right floated content">
+                    <div class="ui button">Add</div>
+                </div> -->
+                <div style="color:red" class="left floated content">
+                    Patient Name
+                </div>
+                <div style="text-align: center; color:green" class="middle floated content">
+                    Status of Request
+                </div>
+            </div>
+            <div style="padding: 10px;" class="item">
+                <div class="right floated content">
+                    <a href="/add-patient-data"><i class="pencil icon"></a></i> <i style="color: red;" class="delete icon"></i>
+                </div>
+                <!-- <div class="right floated content">
+                    <div class="ui button">Add</div>
+                </div> -->
+                <div style="color:lightblue" class="left floated content">
+                    User.Hospitalname
+                </div>
 
+                <div style="text-align: center; color: green;" class="middle floated content">
+                    User.status
+                </div>
+            </div>
+            <div style="padding: 10px;" class="item">
+                <div class="right floated content">
+                    <a href="/add-patient-data"><i class="pencil icon"></a></i> <i style="color: red;" class="delete icon"></i>
+                </div>
+                <!-- <div class="right floated content">
+                    <div class="ui button">Add</div>
+                </div> -->
+                <div style="color:lightblue" class="left floated content">
+                    User.Hospitalname
+                </div>
 
-            <a class="ui  floated small red labeled icon button">
-                <i class="plus icon"></i> Add Patient
-            </a>
+                <div style="text-align: center; color: green;" class="middle floated content">
+                    User.status
+                </div>
+            </div>
+            <div style="padding: 10px;" class="item">
+                <div class="right floated content">
+                    <a href="/add-patient-data"><i class="pencil icon"></a></i> <i style="color: red;" class="delete icon"></i>
+                </div>
+                <!-- <div class="right floated content">
+                    <div class="ui button">Add</div>
+                </div> -->
+                <div style="color:lightblue" class="left floated content">
+                    User.Hospitalname
+                </div>
 
-
-
-        </table>
+                <div style="text-align: center; color: green;" class="content">
+                    User.status
+                </div>
+            </div>
+        </div>
     </div>
 
     </header>

@@ -28,8 +28,7 @@ function register(){
 	if($("input[type=checkbox]").prop("checked"))
 	{ 
 		$("input[type=checkbox]").css("color","red");
-		regWithKeys();
-		
+		regWithKeys();	
 	}
 	else
 	  {

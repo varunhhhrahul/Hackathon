@@ -32,7 +32,6 @@ function register(){
 	}
 	else
 	  {
-		  console.log("hi");
 		  regNew();
 	  }
 	  $('.ui.basic.modal').modal('show');
